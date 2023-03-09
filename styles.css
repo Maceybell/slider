@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  
+  
+}
+
+.controller {
+  display: flex;
+
+  justify-content: center;
+}
+
+#controls i {
+  color: #7b61ff;
+  font-size: 20px;
+  margin: 20px;
+}
+#controls i:hover {
+  color: rgb(178, 162, 231);
+}
+
+.previous,
+.next {
+  padding: 2px;
+  width: 30px;
+  cursor: pointer;
+  outline: none;
+  background-color: none;
+  border: none;
+  background: none;
+  transition: 0.7s ease-in-out;
+}
+
+
+
+.slide {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 3px 10px 20px rgba(43, 43, 43, 0.117);
+  border-radius: 7px;
+  text-align: center;
+}
+
+h2 {
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 42px;
+ 
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.slide h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #7b61ff;
+  margin: 7px;
+}
+
+.slide img {
+  border-radius: 7px;
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#slide-3 img {
+  object-position: 20% 20%;
+}
+
+#controls{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    border: rgb(62, 1, 62) 1px solid;
+    color: rgb(54, 2, 54);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    text-align: center;
+
+}
+
+a:hover{
+    background-color: rgba(218, 182, 251, 0.264);
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+}

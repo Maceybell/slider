@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+a {
+    border: rgb(62, 1, 62) 1px solid;
+    color: rgb(54, 2, 54);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+a:hover{
+    background-color: rgba(218, 182, 251, 0.264);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="jsLogic.js"></script>
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h2>My Hobbies</h2>
+    <div id="slider">
+      <div class="slide blur" id="slide-1">
+        <img src="./images/hiking.jpg" alt="placeholder image" />
+        <h1>Hiking</h1>
+        <p>
+          I actually didn't get to the top of this mountain because of a
+          lightning storm. The hike is called Mt. Olympus so I guess Zeus got
+          mad.
+        </p>
+      </div>
+      <div class="slide blur" id="slide-2">
+        <img src="./images/gaming.jpg" alt="placeholder image" />
+        <h1>Gaming</h1>
+        <p>
+          My favorite games are Elden Ring, Hollow Knight, Pokemon
+          Silver/Crystal, Super Smash Bros, Skyrim, Paper Mario and more
+          recently Hogwarts Legacy.
+        </p>
+      </div>
+      <div class="slide blur" id="slide-3">
+        <img src="./images/longboarding.jpg" alt="placeholder image" />
+        <h1>Longboarding</h1>
+        <p>
+          I like riding down Provo canyon in the Spring. And Summer. And Fall.
+        </p>
+      </div>
+      <div class="slide blur" id="slide-4">
+        <img src="./images/pickleball.jpg" alt="placeholder image" />
+        <h1>Pickleball</h1>
+        <p>
+          I played badminton in high school but no one really plays badminton,
+          so I play pickleball now.
+        </p>
+      </div>
+      <div class="slide blur" id="slide-5">
+        <img src="./images/snowboarding.jpg" alt="placeholder image" />
+        <h1>Snowboarding</h1>
+        <p>My max speed is 45 mph.</p>
+      </div>
+      <div class="slide blur" id="slide-6">
+        <img src="./images/dnd.jpg" alt="placeholder image" />
+        <h1>D&D</h1>
+        <p>
+          My current character is an autognome rogue. She recently fought in a
+          gladiator arena on an asteroid and got the crowd to do the first ever
+          wave in space.
+        </p>
+      </div>
+    </div>
+    <div id="slider-buttons">
+      <button class="button" id="previous-button" onclick="plusSlides(-1)">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button class="button" id="next-button" onclick="plusSlides(1)">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <br />
+      <br />
+    </div>
+    <div class="summary">
+      <p>
+        Since I couldn't figure out a blur with Tiny Slider I tried using plain
+        Javascript. I figured out adding the blur but ran into a problem with
+        the logic where and tertiary I tried to incorporate to loop smoothly
+        through would break the slider althogether.So this one is buggier but
+        shows the logic I was using to approach adding blur.
+      </p>
+      <a href="./tiny-slider.html">Tiny Slider</a>
+    </div>
+  </body>
+</html>
